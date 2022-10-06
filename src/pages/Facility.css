@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(7,auto);
+    row-gap: 20px;
+    text-align: center;
+}
+.main{
+    background: rgb(30,29,87);
+    background: linear-gradient(180deg, rgba(30,29,87,1) 0%, rgba(105,104,247,1) 62%);
+}

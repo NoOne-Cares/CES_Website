@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CardInfo{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 154px;
+    height: 194px;
+    border: solid 8px rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+
+
