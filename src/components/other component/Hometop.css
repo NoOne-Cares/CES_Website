@@ -70,33 +70,57 @@
     font-family: 'Rubik', sans-serif;
 }
 
-/* .ScrollIcon{
+
+.scroll-home{
     position: absolute;
     top: 70%;
-    left: 1%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    left: 2%;
 }
 
-.ScrollIcon a{
-    display: inline-block;
-}
 .p-sc{
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     margin-bottom: 1vh;
-    margin-left: 0.6vh;
+    margin-left: 0.7vh;
     font-family: 'Rubik', sans-serif;
-} */
+    display: inline;
+}
+
+.events{
+    width: 100%;
+    padding: 4.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.event{
+    width: 25%;
+    background-color: grey;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.975rem;
+    min-height: 50vh;
+}
 
 
 @media only screen and (max-width:1200px) and (min-width:661px){
     .hometop-main{
         right: 9%;
     }
+
+    .p-sc{
+        margin-left: 0.5vh;
+    }
 }
 
+@media only screen and (max-width:991px){
+    .events{
+        flex-direction: column;
+    }
+
+    .event{
+        width: 90%;
+        margin: 3rem auto;
+    }
+}
 @media only screen and (max-width:660px){
     .hometop-main{
         font-size: 3.125rem;
@@ -120,12 +144,11 @@
         margin: 10vh auto 15vh auto;
     }
 
-    .ScrollIcon{
-       
-        top: 78%;
-       
+    .scroll-home{
+        display: none;
     }
 }
+
 
 @media only screen and (max-width:361px) and (min-width:321px){
     .hometop-main{

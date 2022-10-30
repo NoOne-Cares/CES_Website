@@ -14,12 +14,12 @@ color: white;
     width: 10px;
   }
   ::-webkit-scrollbar-track{
-    background: yellowgreen;
+    background: linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%), linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%), linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%);
   }
   ::-webkit-scrollbar-thumb{
-    background: red;
+    background: linear-gradient(180deg, #5d3b9c 0%, #1e1d57 100%);
     border-radius: 25px;
   }
   ::-webkit-scrollbar-thumb:hover{
-    background-image: yellow;
+    background: linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%);
   }
