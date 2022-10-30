@@ -1,0 +1,154 @@
+.home-top{
+    position: relative;
+  padding-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  box-shadow: inset 0 0 0 1000px rgba(1, 51, 91,0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(245, 89, 89);
+  padding-bottom: 0;
+  height: 101vh;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+.hometop-main{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    color: #ffffff;
+    font-size: 4.125rem;
+    /* line-height: 7.8125rem; */
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.hometop-main h3{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    letter-spacing:normal;
+    font-family: 'Rubik', sans-serif;
+}
+
+.h3-1{
+    margin-top: 2vh;
+}
+
+.about-us{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%), linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%), linear-gradient(180deg, #1E1D57 0%, #5D3B9C 100%);
+    padding: 4rem 0;
+}
+
+.about-us{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    min-height: 100vh;
+    height: auto;
+}
+
+.about-us h1{
+    text-decoration: underline;
+    margin-top: 2vh;
+}
+
+.about-us p {
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: normal;
+    margin: 10vh auto 20vh auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* .ScrollIcon{
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ScrollIcon a{
+    display: inline-block;
+}
+.p-sc{
+    writing-mode: vertical-rl;
+    margin-bottom: 1vh;
+    margin-left: 0.6vh;
+    font-family: 'Rubik', sans-serif;
+} */
+
+
+@media only screen and (max-width:1200px) and (min-width:661px){
+    .hometop-main{
+        right: 9%;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .hometop-main{
+        font-size: 3.125rem;
+        top: 15%;
+        left: 3%;
+    }
+
+    .hometop-main h3{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+    }
+
+    .about-us {
+        font-size: 1.6rem;
+    }
+
+    .about-us p{
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0 .5rem;
+        margin: 10vh auto 15vh auto;
+    }
+
+    .ScrollIcon{
+       
+        top: 78%;
+       
+    }
+}
+
+@media only screen and (max-width:361px) and (min-width:321px){
+    .hometop-main{
+        font-size: 2.9rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .hometop-main{
+        font-size: 2.125rem;
+    }
+
+    .hometop-main h3{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .about-us{
+        line-height: 1.2;
+    }
+
+    .about-us p{
+        font-size: 1rem;
+        margin-bottom: 10vh;
+    }
+}
