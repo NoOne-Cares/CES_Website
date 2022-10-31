@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Events from '../../pages/Events';
 import './Hometop.css'
 import ScroolIcon from './ScroolIcon';
 const Hometop = () => {
+    
     return (
+
         <>
             <div className="home-top">
                 <div className="hometop-main">
@@ -20,8 +23,11 @@ const Hometop = () => {
                 <h1>Upcoming Events</h1>
                 <div className="events">
                     <div className="event ev1"></div>
-                    <div className="event ev2"></div>
-                    <div className="event ev3"></div>
+                    <div className="event ev2">
+                      
+                    </div>
+                    <div className="event ev3">
+                    </div>
                 </div>
             </div>
 
@@ -29,6 +35,7 @@ const Hometop = () => {
                 <a href="/#a-us"><p className='p-sc'>Scroll</p>
                     <ScroolIcon /></a>
             </div>
+            {/* <Events /> */}
         </>
     )
 }

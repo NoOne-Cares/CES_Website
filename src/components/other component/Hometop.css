@@ -70,7 +70,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-
 .scroll-home{
     position: absolute;
     top: 70%;
@@ -87,18 +86,51 @@
 
 .events{
     width: 100%;
-    padding: 4.5rem 0;
+    padding: 8rem 0;
     display: flex;
     justify-content: space-around;
 }
 
 .event{
     width: 25%;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.461);
     border-radius: 0.625rem;
     box-shadow: 0 0 0.975rem;
     min-height: 50vh;
+    transition: all 0.4s ease;
 }
+
+.event:hover{
+    transform: translateY(-1px);
+}
+
+.ev1{
+    transform: perspective(9cm) rotateX(0deg) rotateY(-15deg);
+}
+
+.ev3{
+    transform: perspective(9cm) rotateX(0deg) rotateY(15deg);
+}
+
+.ev1:hover{
+    width: 70%;
+    margin: 0 3rem;
+}
+
+.ev1:hover .ev3{
+    background-color: red;
+}
+
+.ev2:hover{
+    width: 70%;
+    margin: 0 3rem;
+}
+
+.ev3:hover{
+    width: 70%;
+    margin: 0 3rem;
+}
+
 
 
 @media only screen and (max-width:1200px) and (min-width:661px){
@@ -109,16 +141,30 @@
     .p-sc{
         margin-left: 0.5vh;
     }
+
 }
 
 @media only screen and (max-width:991px){
     .events{
         flex-direction: column;
+        padding: 2rem 0;
     }
 
     .event{
         width: 90%;
+        margin: 2rem auto;
+    }
+
+    .ev1:hover, .ev2:hover, .ev3:hover{
+        width: 90%;
         margin: 3rem auto;
+    }
+
+    .ev1{
+        transform: perspective(0cm) rotateX(0deg) rotateY(0deg);
+    }
+    .ev3{
+        transform: perspective(0cm) rotateX(0deg) rotateY(0deg);
     }
 }
 @media only screen and (max-width:660px){
