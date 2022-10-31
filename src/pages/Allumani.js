@@ -1,5 +1,5 @@
 import TaskBar from '../components/other component/task-bar'
-const Gallery =()=>{
+const Allumani =()=>{
     return(
         
         <div>
@@ -7,4 +7,4 @@ const Gallery =()=>{
         </div>
     )
 }
-export default Gallery;
+export default Allumani;

@@ -1,23 +1,22 @@
-import "../member/MC.css"
-const DeveloperCard = (props) => {
+import "../css files/developer.css"
+const DeveloperCard = () => {
     return(
         <div>
-             <div className="box">
-                <div className="card">
-                    <div className="imgBx">
-                        <img src = {props.ImgSrc} alt="images"/>
-                    </div>
-                    <div class="details">
-                        <div className="Nmame">{props.Name}</div>
-                        <div className="Position">{props.Position}</div>
-                        <div className="Social">
-                            <br className="Git">{props.GH}</br>
-                            <br className="Insta">{props.Insta}</br>
-                            <br className="Linkdien">{props.Linkdien}</br>
-                        </div>
-                    </div>
+            <section className="main">
+                <div class="universal-card">
+                     <div className="gardient"></div>
+                    <div className="picture">
+                     <img src="./facility pics/image1.jpeg./pic.jpg" alt="" className="pic"></img>
                 </div>
-            </div>
+                 <div className="text">
+                    <p className="name">Rituraj Gautam</p>
+                      <p class="dgeination">UI/UX + Developer</p>
+                 </div>
+                <div className="icon">
+         
+                 </div>
+              </div>
+            </section>
         </div>
     )
 }
