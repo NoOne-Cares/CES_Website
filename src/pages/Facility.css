@@ -9,3 +9,34 @@
     background: rgb(30,29,87);
     background: linear-gradient(180deg, rgba(30,29,87,1) 0%, rgba(105,104,247,1) 62%);
 }
+.CardInfos{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.CardName{
+    width: 250px;
+    height: 294px;
+    border: solid 8px rgb(255, 255, 255);
+    border-radius: 5%;
+}
+.Facility_card{
+    transform: translateX(42vw);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 30vw
+}
+.Names{
+    transform: translateX(17%);
+}
+.Deginations{
+    transform: translateX(6%);
+}
+.Phones{
+    transform: translateX(17%);
+}
+.Emails{transform: translateX(10.5%);}
+.info{
+    
+}

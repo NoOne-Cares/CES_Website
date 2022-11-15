@@ -51,194 +51,194 @@ const FacilityData=[
     {
         id : 8,
         imageSrc : "./facility pics/image8.jpeg",
-        Name : "Dr. Arjun Sil",
-        Designation : "Professor" ,
-        Phone : "8471820847",
-        Email : "hod@civil.nits.ac.in"
-    },
-    {
-        id : 9,
-        imageSrc : "./facility pics/image9.png",
         Name : "Prof. Animul Islam Laskar",
         Designation : "Professor" ,
         Phone : "9957601712",
         Email : "aminul@civil.nits.ac.in"
     },
     {
-        id : 10,
-        imageSrc : "./facility pics/image10.jpeg",
+        id : 9,
+        imageSrc : "./facility pics/image9.png",
         Name : "Prof. Dibakar Chakraborty",
         Designation : "Professor" ,
         Phone : "9435372649",
         Email : "dibakar@civil.nits.ac.in"
     },
     {
-        id : 11,
-        imageSrc : "./facility pics/image11.jpeg",
-        Name : "Prof. Dibakar Chakraborty",
-        Designation : "Professor" ,
-        Phone : "8471820847",
-        Email : "hod@civil.nits.ac.in"
-    },
-    {
-        id : 12,
-        imageSrc : "./facility pics/image12.jpeg",
+        id : 10,
+        imageSrc : "./facility pics/image10.jpeg",
         Name : "Prof. Upendra Kumar",
         Designation : "Professor" ,
         Phone : "9435176340",
         Email : "upendra@civil.nits.ac.in"
     },
     {
-        id : 13,
-        imageSrc : "./facility pics/image13.jpeg",
+        id : 11,
+        imageSrc : "./facility pics/image11.jpeg",
         Name : "Dr. Tauhidur Rahman",
         Designation : "Assistan Professor" ,
         Phone : "9435500889",
         Email : "parthajit@civil.nits.ac.in"
     },
     {
-        id : 14,
-        imageSrc : "./facility pics/image14.jpeg",
+        id : 12,
+        imageSrc : "./facility pics/image12.jpeg",
+        Name : "Parthajit Roy",
+        Designation : "Professor" ,
+        Phone : "9435500889",
+        Email : "parthajit@civil.nits.ac.in"
+    },
+    {
+        id : 13,
+        imageSrc : "./facility pics/image13.jpeg",
         Name : "Dr. Parbin Sultana",
         Designation : "Assistant Professor" ,
         Phone : "9435503816",
         Email : "parbin@civil.nits.ac.in"
     },
     {
-        id : 15,
-        imageSrc : "./facility pics/image15.jpeg",
+        id : 14,
+        imageSrc : "./facility pics/image14.jpeg",
         Name : "Dr. Nirmali Borthakur",
         Designation : "Assistant Professor" ,
         Phone : "9435009915",
         Email : "nirmali@civil.nits.ac.in "
     },
     {
-        id : 16,
-        imageSrc : "./facility pics/image16.jpeg",
+        id : 15,
+        imageSrc : "./facility pics/image15.jpeg",
         Name : "Dr. Pallab Das",
         Designation : "Assistant Professor" ,
         Phone : "9864312246",
         Email : "pallab@civil.nits.ac.in "
     },
     {
-        id : 17,
-        imageSrc : "./facility pics/image17.jpeg",
+        id : 16,
+        imageSrc : "./facility pics/image16.jpeg",
         Name : "Dr. Nitesh A",
         Designation : "Assistant Professor" ,
         Phone : "9435565508",
         Email : "nitesh@civil.nits.ac.in "
     },
     {
-        id : 18,
-        imageSrc : "./facility pics/image18.jpeg",
+        id : 17,
+        imageSrc : "./facility pics/image17.jpeg",
         Name : "Dr. Dillip Kumar Ghose",
         Designation : "Assistant Professor" ,
         Phone : "8135979813",
         Email : "dillip@civil.nits.ac.in "
     },
     {
-        id : 19,
-        imageSrc : "./facility pics/image19.jpeg",
+        id : 18,
+        imageSrc : "./facility pics/image18.jpeg",
         Name : "Dr.Lakshmi Varsha Prasad. M",
         Designation : "Assistant Professor" ,
         Phone : "81330131375",
         Email : "mlvprasad@civil.nits.ac.in "
     },
     {
-        id : 20,
-        imageSrc : "./facility pics/image20.jpeg",
+        id : 19,
+        imageSrc : "./facility pics/image19.jpeg",
         Name : "Dr. Debjit bhowmik",
         Designation : "Assistant Professor" ,
         Phone : "813301185",
         Email : "debjit@civil.nits.ac.in "
     },
     {
-        id : 21,
-        imageSrc : "./facility pics/image21.jpeg",
+        id : 20,
+        imageSrc : "./facility pics/image20.jpeg",
         Name : "Dr. Briti Sunddar Sil",
         Designation : "Assistant Professor" ,
         Phone : "9435519130",
         Email : "bssil@civil.nits.ac.in "
     },
     {
-        id : 22,
-        imageSrc : "./facility pics/image22.jpeg",
+        id : 21,
+        imageSrc : "./facility pics/image21.jpeg",
         Name : "Dr. Monowar Hussain",
         Designation : "Assistant Professor" ,
         Phone : "9435551673",
         Email : "monowar@civil.nits.ac.in "
     },
     {
-        id : 23,
-        imageSrc : "./facility pics/image23.jpeg",
+        id : 22,
+        imageSrc : "./facility pics/image22.jpeg",
         Name : "Dr. Khwairakapam Lakshman Singh",
         Designation : "Assistant Professor" ,
         Phone : "8474800505",
         Email : "lakshman@civil.nits.ac.in "
     },
     {
-        id : 24,
-        imageSrc : "./facility pics/image24.jpeg",
+        id : 23,
+        imageSrc : "./facility pics/image23.jpeg",
         Name : "Dr. Nirmalendu Debnath",
         Designation : "Assistant Professor" ,
         Phone : "9706055538",
         Email : "nirmalendu@civil.nits.ac.in"
     },
     {
-        id : 25,
-        imageSrc : "./facility pics/image25.jpeg",
+        id : 24,
+        imageSrc : "./facility pics/image24.jpeg",
         Name : "Dr. Bijan Kumar Roy",
         Designation : "Assistant Professor" ,
         Phone : "7636905506",
         Email : "bijan@civil.nits.ac.in "
     },
     {
-        id : 26,
-        imageSrc : "./facility pics/image26.jpeg",
+        id : 25,
+        imageSrc : "./facility pics/image25.jpeg",
         Name : "Dr. Susmita Ghosh",
         Designation : "Assistant Professor" ,
         Phone : "7086833798",
         Email : "susmita@civil.nits.ac.in "
     },
     {
-        id : 27,
-        imageSrc : "./facility pics/image27.jpeg",
+        id : 26,
+        imageSrc : "./facility pics/image26.jpeg",
         Name : "Dr. Subhrajit Dutta",
         Designation : "Assistant Professor" ,
         Phone : "9167518539",
         Email : "subhrajit@civil.nits.ac.in "
     },
     {
-        id : 28,
-        imageSrc : "./facility pics/image28.jpeg",
+        id : 27,
+        imageSrc : "./facility pics/image27.jpeg",
         Name : "Dr. Amit Kumar Das",
         Designation : "Assistant Professor" ,
         Phone : "8906432255",
         Email : "amitkdasi@civil.nits.ac.in "
     },
     {
-        id : 29,
-        imageSrc : "./facility pics/image29.jpeg",
+        id : 28,
+        imageSrc : "./facility pics/image28.jpeg",
         Name : "Dr. Suprava Jena",
         Designation : "Assistant Professor" ,
         Phone : "7008534828",
         Email : "suprava@civil.nits.ac.in "
     },
     {
-        id : 30,
-        imageSrc : "./facility pics/image30.jpeg",
+        id : 29,
+        imageSrc : "./facility pics/image29.jpeg",
         Name : "Dr. Ambika Kuity",
         Designation : "Assistant Professor" ,
         Phone : "9508631596",
-        Email : "ambika@civil.nits.ac.in "
+        Email : "ambika@civil.nits.ac.in ",
     },
     {
-        id : 31,
-        imageSrc : "./facility pics/image31.jpeg",
+        id : 30,
+        imageSrc : "./facility pics/image30.jpeg",
         Name : "Dr. Olympa Bora",
         Designation : "Assistant Professor" ,
         Phone : "6900182922",
         Email : "olympa@civil.nits.ac.in "
+    },
+    {
+        id : 31,
+        imageSrc : "./facility pics/image31.jpeg",
+        Name : "Dr. Atanu Sahu",
+        Designation : "Assistant Professor" ,
+        Phone : "9207344531",
+        Email : "kulkarni@civil.nits.ac.in "
     },
     {
         id : 32,
@@ -251,10 +251,10 @@ const FacilityData=[
     {
         id : 33,
         imageSrc : "./facility pics/image33.jpeg",
-        Name : "Dr. Jyotirmoy Haloi",
+        Name : "Dr. Kulkarni Vihangraj Vijaykumar",
         Designation : "Assistant Professor" ,
-        Phone : "8876458563",
-        Email : "jyotirmoy@civil.nits.ac.in "
+        Phone : "9207344531",
+        Email : "kulkarni@civil.nits.ac.in"
     },
     {
         id : 34,

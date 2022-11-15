@@ -18,14 +18,14 @@ const Facility = () => {
     return(
         <div className='main'>
             <TaskBar/>
-            <div className="Facility_cards">
+            <div className="Facility_card">
             <div className="facility_card">
                 <img src='./facility pics/image1.jpeg' alt=" " className="CardName"/>
-                <div className="CardInfo">
-                    <span className="Name">Dr. Arjun Sil</span>
-                    <span className="Degination">Associate professor & HOD</span>
-                    <span className="Phone">8471820847</span>
-                    <span className="Email">hod@civil.nits.ac.in</span>
+                <div className="CardInfos">
+                    <span className="Names info">Dr. Arjun Sil</span>
+                    <span className="Deginations info">Associate professor & HOD</span>
+                    <span className="Phones info">8471820847</span>
+                    <span className="Emails info">hod@civil.nits.ac.in</span>
                 </div>
             </div>
         </div >

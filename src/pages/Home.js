@@ -4,7 +4,7 @@ import Hometop from '../components/other component/Hometop'
 const Home =()=>{
     return(
         <div>
-          {/* <TaskBar/> */}
+          {<TaskBar/> }
         <Hometop />
         
         </div>
