@@ -1,10 +1,11 @@
 import MemeberCard from "../components/Cards/MemberCard";
-import TaskBar from "../components/other component/task-bar";
+import Navbar from "../components/other component/Navbar";
+
 const Member =()=>{
     return(
         
         <div>
-            <TaskBar/>
+            <Navbar />
             <div>
             <MemeberCard/>
             </div>
