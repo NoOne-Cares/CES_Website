@@ -5,7 +5,9 @@
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
 }
-
+.name{
+  padding-top: 100px;
+}
 a{
   text-decoration: none;
 color: white;

@@ -98,6 +98,10 @@
     box-shadow: 0 0 0.975rem;
     min-height: 50vh;
     transition: all 0.4s ease;
+    background: url(https://images.unsplash.com/photo-1561650168-6d6e20e84a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .event:hover{
@@ -131,7 +135,49 @@
     margin: 0 3rem;
 }
 
+.event h1{
+    font-size: 1.7rem;
+    margin-top: 4vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-decoration: none;
+    word-wrap: break-word;
+    line-height: normal;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
+.event h2{
+    font-size: 1rem;
+    margin-top: 2vh;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+    padding-top: 0 !important;
+    letter-spacing: 1px;
+    text-align: left;
+    
+}
+
+.ev1:hover .h2-event{
+    text-align: center;
+}
+
+.ev2:hover .h2-event{
+    text-align: center;
+}
+
+.ev3:hover .h2-event{
+    text-align: center;
+}
+
+.event img{
+    width: 25%;
+    margin: 2vh 0;
+    margin-top: 5vh !important;
+    object-fit: cover;
+}
 
 @media only screen and (max-width:1200px) and (min-width:661px){
     .hometop-main{
@@ -140,6 +186,10 @@
 
     .p-sc{
         margin-left: 0.5vh;
+    }
+
+    .event img{
+        width: 50%;
     }
 
 }
@@ -153,6 +203,10 @@
     .event{
         width: 90%;
         margin: 2rem auto;
+    }
+
+    .event img{
+        width: 50%;
     }
 
     .ev1:hover, .ev2:hover, .ev3:hover{

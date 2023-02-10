@@ -1,13 +1,16 @@
 import React from 'react';
-import Events from '../../pages/Events';
+// import Events from '../../pages/Events';
 import './Hometop.css'
+import Navbar from './Navbar';
 import ScroolIcon from './ScroolIcon';
 const Hometop = () => {
-    
+
     return (
 
         <>
+        <Navbar />
             <div className="home-top">
+            
                 <div className="hometop-main">
                     <h1>Civil Engineering</h1>
                     <h1>Society</h1>
@@ -22,11 +25,20 @@ const Hometop = () => {
                 </p>
                 <h1>Upcoming Events</h1>
                 <div className="events">
-                    <div className="event ev1"></div>
+                    <div className="event ev1">
+                        <h1>Tecnoesis</h1>
+                        <img src="https://tecnoesis.org/_next/static/media/tecnoesis.1fef38ca.png" alt="" />
+                        <h2 className='h2-event'>Organized by CES Proudly presented to students by the students.</h2>
+                    </div>
                     <div className="event ev2">
-                      
+                    <h1>SportsMania</h1>
+                        <img src="https://tecnoesis.org/_next/static/media/tecnoesis.1fef38ca.png" alt="" />
+                        <h2 className='h2-event'>Organized by CES Proudly presented to students by the students.</h2>
                     </div>
                     <div className="event ev3">
+                    <h1>My City My Dream</h1>
+                        <img src="https://tecnoesis.org/_next/static/media/tecnoesis.1fef38ca.png" alt="" />
+                        <h2 className='h2-event'>Organized by CES Proudly presented to students by the students.</h2>
                     </div>
                 </div>
             </div>

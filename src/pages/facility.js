@@ -1,7 +1,8 @@
-import TaskBar from '../components/other component/task-bar';
+
 import FacilityCard from "../components/Cards/FacilityCard" 
 import FacilityData from "../components/data/facity_data"
 import './Facility.css'
+import Navbar from '../components/other component/Navbar';
 
 function card(value){
     return(
@@ -16,12 +17,13 @@ function card(value){
 };
 const Facility = () => {
     return(
+        <div>
+            <div><Navbar/></div>
         <div className='main'>
-            <TaskBar/>
-            <div className="Facility_card">
+            <div className="Facility_cards card">
             <div className="facility_card">
                 <img src='./facility pics/image1.jpeg' alt=" " className="CardName"/>
-                <div className="CardInfos">
+                <div className="CardInfos info">
                     <span className="Names info">Dr. Arjun Sil</span>
                     <span className="Deginations info">Associate professor & HOD</span>
                     <span className="Phones info">8471820847</span>
@@ -33,6 +35,8 @@ const Facility = () => {
             {FacilityData.map(card)}
         </div>
         </div>
+        </div>
+       
     );
 }
 export default Facility

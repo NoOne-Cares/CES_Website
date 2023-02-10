@@ -6,7 +6,7 @@ const TaskBar= () => {
     return (
         <div>
         <div class="navbar">
-        <div> <img className="img" src="./other img/logo.png" alt='not available' /></div>
+        <div> <img className="img" src="./other_img/logo.png" alt='not available' /></div>
             <div class="content">
                 <NavLink className="item ,text,home" to={'/'} style={{textDecoration:'none'}}>Home</NavLink>
                 <NavLink className="item ,text, gallery" to={'/gallery'} style={{textDecoration:'none'}}>Gallery</NavLink>

@@ -3,7 +3,7 @@ import '../css files/gallery.css'
 const Galery =()=>{
     return(
         <div className='main'>
-            <p class="heading">Gallery</p>
+            <p class="heading"></p>
                 <div class="gallery-image">
                     <div class="img-box">
                         <img src="./gallery pic/DSC_0222.JPG" alt="" />
